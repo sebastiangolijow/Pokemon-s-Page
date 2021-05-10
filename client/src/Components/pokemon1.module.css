@@ -1,0 +1,19 @@
+.pokemon1:hover{
+animation: unset;
+ margin-top: 18vh;
+transform: perspective(100px) rotateX(0deg) rotateY(0deg) rotateZ(10deg)
+}
+
+.pokemon1 {
+    display: grid;
+    box-shadow: 8px 8px 0 6px #9984;
+    grid-template-columns: repeat(1, 1fr);
+    width: 300px;
+    background-color:black;
+    border: solid;
+    border-color: white;
+    margin: 20px;
+    background-size: "cover";
+    position:relative;
+    top:-50px
+}
